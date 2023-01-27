@@ -18,7 +18,7 @@ class Node {
     }
 };
 
-class Solution {
+class Solution4 {
     public static List<Integer> preorder(Node root) {
         // To store the output array...
         List<Integer> output = new ArrayList<Integer>();
