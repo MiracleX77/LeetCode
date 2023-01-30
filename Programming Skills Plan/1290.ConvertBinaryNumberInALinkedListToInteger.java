@@ -1,4 +1,3 @@
-import java.util.LinkedList;
 
 class ListNode {
     int val;
@@ -19,11 +18,10 @@ class ListNode {
 
 class Solution1290 {
     public static int getDecimalValue(ListNode head) {
-        int sum = 0, index = 0;
+        int sum = 0;
         while (head != null) {
             sum = sum * 2 + head.val;
             head = head.next;
-            index++;
         }
         return sum;
     }
