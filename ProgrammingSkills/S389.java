@@ -2,7 +2,6 @@ public class S389 {
     public static char findTheDifference(String s, String t) {
         int sum_sbyte =0;
         int sum_tbyte =0;
-
         for (byte sb : s.getBytes()){
             sum_sbyte+=sb;
         }
@@ -13,7 +12,7 @@ public class S389 {
     }
 
     public static void main(String[] args) {
-        System.out.println(findTheDifference("ab", "ab1"));
+        System.out.println(findTheDifference("ab", "ab9"));
     }
 
 
