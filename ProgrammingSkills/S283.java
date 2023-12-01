@@ -8,7 +8,7 @@ public class S283 {
             if(nums[i] != 0){
                 pre_num = nums[index_zero];
                 nums[index_zero] = nums[i];
-                nums[i] = nums[index_zero];
+                nums[i] = pre_num;
                 index_zero++;
             }
         }
