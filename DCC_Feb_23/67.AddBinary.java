@@ -1,3 +1,5 @@
+package DCC_Feb_23;
+
 class Solution67 {
     public String addBinary(String a, String b) {
         int len_a = a.length() - 1;
